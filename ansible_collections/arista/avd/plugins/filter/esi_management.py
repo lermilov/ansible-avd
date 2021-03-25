@@ -5,7 +5,7 @@ import re
 
 
 class FilterModule(object):
-
+## change for PR746
     def generate_esi(self, esi_short, esi_prefix='0000:0000:'):
         return esi_prefix + esi_short
 
